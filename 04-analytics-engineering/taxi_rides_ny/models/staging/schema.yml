@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-433809
+    schema: taxi_data
+
+    tables:
+      - name: external_table_green_taxi_data
+      - name: external_table_yellow_taxi_data
